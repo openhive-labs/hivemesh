@@ -16,6 +16,8 @@ The first integration target is a provider-local OpenAI-compatible endpoint such
 
 The management interface of CLIProxyAPI or any other gateway must never be exposed as a leasable route.
 
+The detailed CLIProxyAPI integration contract is documented in [CLIProxyAPI](cliproxyapi.md).
+
 ### Anthropic-compatible models
 
 An Anthropic-facing profile may project eligible resources through `/v1/messages`. Capability differences must be explicit; the adapter must not pretend unsupported semantics are equivalent.
